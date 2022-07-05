@@ -5,12 +5,13 @@ import reportWebVitals from './reportWebVitals';
 import 'lib-flexible';
 import Routers from "./routes";
 import './index.scss'
+import Aa from './test';
 //pxtorem配置需要
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Routers/> */}
-    <div>Nihao</div>
+    <Aa/>
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
